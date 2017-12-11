@@ -1,0 +1,11 @@
+[Unit]
+Description=EayunStack Notifier Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/eayunstack-notifier
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

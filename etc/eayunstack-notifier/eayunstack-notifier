@@ -1,0 +1,6 @@
+/var/log/eayunstack_notifier/*.log {
+    rotate 14
+    size 10M
+    missingok
+    compress
+}
