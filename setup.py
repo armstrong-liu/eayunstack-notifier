@@ -4,16 +4,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="eayunstack-notifier",
+    name="openstack-notifier",
     version="0.0.1",
     packages=find_packages(),
     author='eayun',
-    author_email='eayunstack@eayun.com',
+    author_email='openstack@eayun.com',
     description='Eayunstack Notifier Tool',
     license='GPLv3',
-    keywords='eayunstack-notifier',
+    keywords='openstack-notifier',
 
     entry_points={
             'console_scripts': [
-                        'eayunstack-notifier = eayunstack_notifier.cmd.agent_notifier:main',
+                        'openstack-notifier = openstack_notifier.cmd.agent_notifier:main',
                     ]})

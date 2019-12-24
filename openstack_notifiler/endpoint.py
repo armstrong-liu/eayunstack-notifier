@@ -6,10 +6,10 @@ import requests
 import logging
 import eventlet
 import oslo.messaging
-from eayunstack_notifier import messaging
-from eayunstack_notifier.emit import ApiHandler
-from eayunstack_notifier.common.log import logger
-from eayunstack_notifier import event as event_converter
+from openstack_notifier import messaging
+from openstack_notifier.emit import ApiHandler
+from openstack_notifier.common.log import logger
+from openstack_notifier import event as event_converter
 from ceilometer.openstack.common import service as os_service
 
 

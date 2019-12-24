@@ -7,8 +7,8 @@ import time
 import hashlib
 import logging
 import requests
-from eayunstack_notifier.common.log import logger
-from eayunstack_notifier.config import CONF
+from openstack_notifier.common.log import logger
+from openstack_notifier.config import CONF
 
 logger.setLevel(logging.INFO)
 

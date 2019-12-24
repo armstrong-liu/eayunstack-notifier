@@ -13,7 +13,7 @@ _ALIASES = {
 
 
 def setup():
-    oslo.messaging.set_transport_defaults('eayunstack_notifier')
+    oslo.messaging.set_transport_defaults('openstack_notifier')
 
 
 def get_transport(url=None, optional=False, cache=True):

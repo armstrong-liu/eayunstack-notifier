@@ -3,7 +3,7 @@ Description=EayunStack Notifier Service
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/eayunstack-notifier
+ExecStart=/usr/bin/openstack-notifier
 Restart=always
 RestartSec=10
 

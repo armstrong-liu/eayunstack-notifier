@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-from eayunstack_notifier import notification
+from openstack_notifier import notification
 from ceilometer import service
 from ceilometer.openstack.common import service as os_service
 

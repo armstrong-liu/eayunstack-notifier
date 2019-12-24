@@ -5,8 +5,8 @@ import fnmatch
 import logging
 import yaml
 import jsonpath_rw
-from eayunstack_notifier.config import CONF
-from eayunstack_notifier.common.log import logger
+from openstack_notifier.config import CONF
+from openstack_notifier.common.log import logger
 
 logger.setLevel(logging.INFO)
 

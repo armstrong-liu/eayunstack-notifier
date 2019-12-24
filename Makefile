@@ -1,4 +1,4 @@
-project_name = eayunstack-notifier
+project_name = openstack-notifier
 version = $(shell grep "Version" $(project_name).spec | awk '{print $$2}')
 
 sources:

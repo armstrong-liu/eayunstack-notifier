@@ -5,7 +5,7 @@ Use ConfigParser define all config, other module use config module get data.
 import ConfigParser
 
 
-FILE_PATH = '/etc/eayunstack-notifier/eayunstack-notifier.conf'
+FILE_PATH = '/etc/openstack-notifier/openstack-notifier.conf'
 
 
 class Config(object):

@@ -15,13 +15,13 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-from eayunstack_notifier.config import CONF
+from openstack_notifier.config import CONF
 import oslo
 import logging
-from eayunstack_notifier import messaging
-from eayunstack_notifier.common.log import logger
+from openstack_notifier import messaging
+from openstack_notifier.common.log import logger
 from ceilometer.openstack.common import service as os_service
-from eayunstack_notifier import endpoint
+from openstack_notifier import endpoint
 
 logger.setLevel(logging.INFO)
 

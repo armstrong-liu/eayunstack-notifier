@@ -1,7 +1,7 @@
 import os
 import logging
 import logging.config
-from eayunstack_notifier.config import CONF
+from openstack_notifier.config import CONF
 
 
 class LOGManager(object):
@@ -31,7 +31,7 @@ class LOGManager(object):
                 }
             },
             "loggers": {
-                "eayunstack_notifier": {
+                "openstack_notifier": {
                     "handlers": ["fileHandler", "streamHandler"],
                     "level": "%s" % self.log_level,
                 }
@@ -47,7 +47,7 @@ class LOGManager(object):
 
         logging.config.dictConfig(dictLogConfig)
 
-        logger_instance = logging.getLogger("eayunstack_notifier")
+        logger_instance = logging.getLogger("openstack_notifier")
 
         return logger_instance
 
